@@ -1,0 +1,60 @@
+planck time unit|5.39 * 10**-44|The amount of time light takes to travel one Planck length.Theoretically, this is the smallest time measurement that will ever be possible.Smaller time units have no use in physics as we understand it today.
+yoctosecond|10**-24
+jiffy|3*10**-24|The amount of time light takes to travel one fermi (about the size of a nucleon) in a vacuum.
+zeptosecond|10**-21|Time measurement scale of the NIST strontium atomic clock. Smallest fragment of time currently measurable is 850 zeptoseconds.
+attosecond|10**-18
+femtosecond|10**-15|Pulse time on fastest lasers.
+Svedberg|10**-13|Time unit used for sedimentation rates (usually of proteins).
+picosecond|10**-12
+nanosecond|10**-9|Time for molecules to fluoresce.
+shake|10**-8|10 nanoseconds, also a casual term for a short period of time.
+microsecond|10**-6|Symbol is µs.
+millisecond|0.001|Shortest time unit used on stopwatches.
+jiffy|1/60|Used to measure the time between alternating power cycles. Also a casual term for a short period of time.We are using the 1/60 definition(1/60s to 1/50s).
+second|1|SI Base unit.
+minute|60
+moment|90|Medieval unit of time used by astronomers to compute astronomical movements.
+ke|864|Usually calculated as 15 minutes,similar to "quarter" as in "a quarter pastix" (6:15).We are using the 14 minutes and 24 seconds definition.
+kilosecond|1000|16 minutes and 40 seconds.
+hour|3600
+day|86400|Longest unit used on stopwatches and countdowns.
+week|604800|Also called "sennight".
+megasecond|1002240|About 1 week and 4.6 days.We are using the 1 week and 4.6 days definition.
+fortnight|1209600|14 days.
+lunar month|2350080|Various definitions of lunar month exist.We are using the 3 weeks 6 days 4 hours 48 minutes definition.
+month|2592000|Occasionally calculated as 30 days.We are using the 30 days definition.
+quarter and season|7776000|3 months.
+semester|15552000|Literally "six months", also used in this sense.
+year|31104000|We are using the 365 days definition.
+common year|31104000|52 weeks and 1 day.We are using the 365 days definition.
+decade|311040000|Period consisting of ten common years.We are using the 365 days definition.
+score|622080000|Period consisting of two decades.We are using the 365 days definition.
+century|3110400000|We are using the 365 days definition.
+millennium|31104000000|Also called "kiloannum".We are using the 365 days definition.
+epoch|622080000000|We are using the 365 days definition.
+eon|‭3,110,400,000,000‬|One hundred thousand times 365.25 day years.We are using the 365 days definition for one year.	
+aeon|‭31104000000000‬|one million times 365.25 day years.We are using the 365 days definition for one year.	
+tropical year|‭31124925‬|365 days and 5:48:45.216 hours.We are using the 365 days and 5:48:45 hours definition.
+gregorian year|‭31124952‬|365 days and 5:49:12 hours.We are using the 365 days and 5:49:12 hours definition.
+sidereal year|‭31126149‬|365 days and 6:09:09.7635456 hours.We are using the 365 days and 6:09:09 definition.
+leap year|‭31190400‬|52 weeks and 2 days.
+biennium|‭62208000‬|2 years.
+triennium|‭93312000‬|3 years.
+quadrennium|‭124416000‬|4 years	
+olympiad|126230400|4 year cycle.48 months, 1,461 days, 35,064 hours, 2,103,840 minutes, 126,230,400 seconds.We are using the 126230400 seconds definition.
+lustrum|‭‭155520000‬|5 years.
+decade|‭311040000‬|10 years.
+indiction|‭‭‭466560000|‬15 year cycle.
+score|‭622080000‬|20 years.
+gigasecond|1000000000|About 31.7 years.
+jubilee|‭1555200000‬|50 years.	
+century|‭3110400000‬|100 years.
+terasecond|‭1,000000000000‬|1 trillioneconds.About 31,700 years.
+megannum|‭31104000000000‬|1,000,000 (106) years.Also called "Megayear".About 1,000 millennia (plural of millennium), or 1 million years.
+petasecond|‭1000000000000000‬|About 31,700,000 years.
+galactic year|‭7153920000000000‬|Approximately 230 million years.The amount of time it takes the Solar System to orbit the center of the Milky Way Galaxy one time.
+aeon|‭31104000000000000‬|1,000,000,000 years or an indefinite period of time.Also spelled "eon".
+day of brahman|‭134369280000000000‬|Day of God.4,320,000,000 years or 4.32 aeon.Like the galactic year which measures the time it takes all the Solar systems of the Milky Way Galaxy to orbit its central nexus one time, this measurement of time is the presumed length of time it takes all the Galaxies in the Universe to orbit its presumed central nexus (aka "Ground Zero of the Big Bang"), one time. In this context, the "7 Days of Creation" mentioned in the book of Genesis ar seen in a much different light,since Earth is estimated to be ~4.3 billion years old, or 1 Day of God according to the Vedic system of time.
+exasecond|10**18|About 31,700,000,000 years.
+zettasecond|10**21|About 31.7 trillion years.
+yottasecond|10**24|About 31.7 quadrillion years.
