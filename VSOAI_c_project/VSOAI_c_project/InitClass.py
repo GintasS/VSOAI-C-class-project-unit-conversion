@@ -42,3 +42,12 @@ class Init(object):
             index += 1
             
         print("------------------------\n")
+    @staticmethod
+    def InitCurrencies(all_units, currency_file):
+        current_file = open(currency_file, "r")
+        file_data = current_file.readlines()
+        
+        all_units["currencies"] = { "name": "currencies", "symbol": "N/A", "units": []}
+
+        for item in file_data:
+            all_units["currencies"]["units"].append({"unit": item, "value": 0, "desc":""})
