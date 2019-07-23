@@ -6,6 +6,7 @@
 
   - [Intro](#intro)
   - [Features](#features)
+  - [Units](#units)
   - [Media](#media)
   - [Changelog](#changelog)
 
@@ -15,7 +16,6 @@
 There are unit categories(mass, time, length and etc) and sub units(kg, g, inch, second).
 </p>
 
-
 ## <a name="Features"></a>Features
 
 <ul>
@@ -23,6 +23,17 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
   <li>Currently there are 5 different unit types</li>
   <li>Easy to use</li>
   <li>All main units in one place</li>
+</ul>
+
+## <a name="Units"></a>Units
+<ul>
+  <li>Time</li>
+  <li>Electric current</li>
+  <li>Mass</li>
+  <li>Length</li>
+  <li>Temperature</li>
+  <li>Luminous intensity</li>
+  <li>Currencies(USD, EUR and more)</li>
 </ul>
 
 ## <a name="Media"></a>Media
