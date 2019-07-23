@@ -23,6 +23,7 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
   <li>Currently there are 5 different unit types</li>
   <li>Easy to use</li>
   <li>All main units in one place</li>
+  <li>Currency support</li>
 </ul>
 
 ## <a name="Units"></a>Units
