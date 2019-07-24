@@ -5,7 +5,7 @@
 ## Jump to...
 
   - [Intro](#intro)
-  - [HowToRun](#HowToRun)
+  - [How To Run](#HowToRun)
   - [Features](#features)
   - [Units](#units)
   - [Media](#media)
