@@ -5,12 +5,19 @@
 ## Jump to...
 
   - [Intro](#intro)
+  - [HowToRun](#HowToRun)
   - [Features](#features)
   - [Units](#units)
   - [Media](#media)
   - [Changelog](#changelog)
 
 ## <a name="Intro"></a>Intro
+
+<p>This is a final project for C class graduation, where user can convert units with ease :)<br>
+There are unit categories(mass, time, length and etc) and sub units(kg, g, inch, second).
+</p>
+
+## <a name="HowToRun"></a>How to run
 
 <p>This is a final project for C class graduation, where user can convert units with ease :)<br>
 There are unit categories(mass, time, length and etc) and sub units(kg, g, inch, second).
