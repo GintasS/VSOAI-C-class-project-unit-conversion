@@ -18,10 +18,11 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
 </p>
 
 ## <a name="HowToRun"></a>How to run
+<p>These are the steps that you need to take in order to run this project:</p>
+<ul>
+  <li>1. Run: <code>pip install -r requirements.txt</code>
+</ul>
 
-<p>This is a final project for C class graduation, where user can convert units with ease :)<br>
-There are unit categories(mass, time, length and etc) and sub units(kg, g, inch, second).
-</p>
 
 ## <a name="Features"></a>Features
 
