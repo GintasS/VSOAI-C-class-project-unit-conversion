@@ -6,3 +6,4 @@ kilogram,kg,mass
 ampere,a,electric current
 kelvin,K,thermodynamic temperature
 candela,cd,luminous intensity
+N/A,N/A,currencies
