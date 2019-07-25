@@ -52,10 +52,32 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
 
 ## <a name="Media"></a>Media
 
-<<a target="_blank" href="">
-  <img src="" height="500" style="max-width:100%;"></img>
+<a target="_blank" href="">
+  <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Base.JPG" height="300" style="max-width:50%;"></img>
 </a>
-<blockquote></blockquote>
+<blockquote>Base window.</blockquote>
+<br>
+<a target="_blank" href="">
+  <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Image2.JPG" height="200" style="max-width:30%;"></img>
+</a>
+<blockquote>Conversion from fortnight to hours.</blockquote>
+<br>
+<a target="_blank" href="">
+  <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Image3.JPG" height="200" style="max-width:60%;"></img>
+</a>
+<blockquote>Conversion from EUR to RUB.</blockquote>
+<blockquote>Conversion from fortnight to hours.</blockquote>
+<br>
+<a target="_blank" href="">
+  <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Image4.JPG" height="200" style="max-width:60%;"></img>
+</a>
+<blockquote>Conversion from mace to gram.</blockquote>
+
+<br>
+<a target="_blank" href="">
+  <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/demo3.mp4" height="200" style="max-width:60%;"></img>
+</a>
+<blockquote>Conversion via SMS: 1 kilogram to grams.</blockquote>
 
 
 ## <a name="Changelog"></a>Changelog
