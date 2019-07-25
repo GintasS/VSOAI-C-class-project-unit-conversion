@@ -15,7 +15,8 @@
 ## <a name="Intro"></a>Intro
 
 <p>This is a final project for C class graduation, where user can convert units with ease :)<br>
-There are unit categories(mass, time, length and etc) and sub units(kg, g, inch, second).
+There are unit categories(mass, time, length and etc) and sub units(kg, g, inch, second).<br>
+Unit data were acquired by scraping wikipedia with helper scripts & manual labor.
 </p>
 
 ## <a name="HowToRun"></a>How to run
