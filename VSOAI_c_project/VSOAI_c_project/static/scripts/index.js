@@ -6,6 +6,10 @@ const UNIT_CATEGORY = "#categories-menu",
     CONVERT_BTN = "#buttonConvert",
     RESULT = "#result";
 
+// Holds current category.
+// This is used for reset purposes.
+var currentCategory = "";
+
 // Disable drop-down lists after website has loaded.
 function InitOnStart()
 {
@@ -22,7 +26,15 @@ function InitSubUnitDisplay()
     {
         // Clear previous sub-units.
         $(UNIT_FROM).empty();
-        $(UNIT_TO).empty();
+
+        // When user changes the category, reset drop-downs.
+        if (currentCategory != $(UNIT_CATEGORY).val() &&
+            currentCategory.length != 0)
+        {
+            $(UNIT_TO).empty();
+            $(UNIT_TO).prop('disabled', true);
+            $(UNIT_VALUE).val('');
+        }
 
         // Enable unit from drop-down & value field.
         $(UNIT_FROM).prop('disabled', false);
@@ -40,6 +52,8 @@ function InitSubUnitDisplay()
                 FillSubUnits(data["subUnits"])
             }
         });
+
+        currentCategory = $(UNIT_CATEGORY).val();
         e.preventDefault();
     });
 }
