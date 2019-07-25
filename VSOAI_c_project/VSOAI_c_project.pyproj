@@ -29,8 +29,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="runserver.py" />
+    <Compile Include="VSOAI_c_project\ConvertClass.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="VSOAI_c_project\InitClass.py" />
     <Compile Include="VSOAI_c_project\SmsSender.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VSOAI_c_project\unit tests\ConvertTests.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="VSOAI_c_project\__init__.py" />
@@ -38,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="VSOAI_c_project\" />
+    <Folder Include="VSOAI_c_project\unit tests\" />
     <Folder Include="VSOAI_c_project\static\" />
     <Folder Include="VSOAI_c_project\static\fonts\" />
     <Folder Include="VSOAI_c_project\static\content\" />
@@ -46,12 +53,11 @@
     <Folder Include="VSOAI_c_project\templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="requirements.txt" />
-    <Content Include="VSOAI_c_project\currencies.txt" />
-    <Content Include="VSOAI_c_project\electric_current_units.txt" />
-    <Content Include="VSOAI_c_project\length_units.txt" />
-    <Content Include="VSOAI_c_project\luminous_intensity_units.txt" />
-    <Content Include="VSOAI_c_project\mass_units.txt" />
+    <Content Include="VSOAI_c_project\static\txt files\currencies.txt" />
+    <Content Include="VSOAI_c_project\static\txt files\electric_current_units.txt" />
+    <Content Include="VSOAI_c_project\static\txt files\length_units.txt" />
+    <Content Include="VSOAI_c_project\static\txt files\luminous_intensity_units.txt" />
+    <Content Include="VSOAI_c_project\static\txt files\mass_units.txt" />
     <Content Include="VSOAI_c_project\static\content\bootstrap.css" />
     <Content Include="VSOAI_c_project\static\content\bootstrap.min.css" />
     <Content Include="VSOAI_c_project\static\fonts\glyphicons-halflings-regular.eot" />
@@ -76,12 +82,11 @@
     <Content Include="VSOAI_c_project\static\scripts\respond.min.js" />
     <Content Include="VSOAI_c_project\static\scripts\_references.js" />
     <Content Include="VSOAI_c_project\static\content\site.css" />
-    <Content Include="VSOAI_c_project\temperature_units.txt" />
-    <Content Include="VSOAI_c_project\templates\contact.html" />
+    <Content Include="VSOAI_c_project\static\txt files\temperature_units.txt" />
     <Content Include="VSOAI_c_project\templates\index.html" />
     <Content Include="VSOAI_c_project\templates\layout.html" />
-    <Content Include="VSOAI_c_project\time_units.txt" />
-    <Content Include="VSOAI_c_project\units.txt" />
+    <Content Include="VSOAI_c_project\static\txt files\time_units.txt" />
+    <Content Include="VSOAI_c_project\static\txt files\units.txt" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">

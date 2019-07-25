@@ -1,6 +1,6 @@
-"""
-This script runs the VSOAI_final_project application using a development server.
-"""
+# This script runs the VSOAI_final_project application using a development
+# server.
+
 
 from os import environ
 from VSOAI_c_project import app
