@@ -7,6 +7,7 @@
   - [Intro](#intro)
   - [How To Run](#HowToRun)
   - [Features](#features)
+  - [About SMS](#AboutSms)
   - [Units](#units)
   - [Media](#media)
   - [Changelog](#changelog)
@@ -38,6 +39,10 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
   <li>SMS support(trial)</li>
   <li>Works offline</li>
 </ul>
+
+## <a name="AboutSms"></a>About SMS
+
+<p>I implemented a feature where one can message an SMS endpoint and receive unit conversion via SMS message!<br>I use Twilio provider's trial version and thus it has limitations, like you can't send SMS messages to not trusted numbers.<br>You can see it in action from the demos below.<br><br><b>Structure:</b><code>unit category/unit from/unit to/amount</code><br><b>Example:</b> mass/kilogram/gram/1</p>
 
 ## <a name="Units"></a>Units
 <ul>
