@@ -52,38 +52,38 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
 
 ## <a name="Media"></a>Media
 
-<a target="_blank" href="">
+<a target="_blank" href="https://github.com/GintasS/VSOAI-project/blob/master/media/Base.JPG">
   <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Base.JPG" height="300" style="max-width:50%;"></img>
 </a>
 <blockquote>Base window.</blockquote>
 <br>
-<a target="_blank" href="">
+<a target="_blank" href="https://github.com/GintasS/VSOAI-project/blob/master/media/Image2.JPG">
   <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Image2.JPG" height="200" style="max-width:30%;"></img>
 </a>
 <blockquote>Conversion from fortnight to hours.</blockquote>
 <br>
-<a target="_blank" href="">
+<a target="_blank" href="https://github.com/GintasS/VSOAI-project/blob/master/media/Image3.JPG">
   <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Image3.JPG" height="200" style="max-width:60%;"></img>
 </a>
 <blockquote>Conversion from EUR to RUB.</blockquote>
 <blockquote>Conversion from fortnight to hours.</blockquote>
 <br>
-<a target="_blank" href="">
+<a target="_blank" href="https://github.com/GintasS/VSOAI-project/blob/master/media/Image4.JPG">
   <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Image4.JPG" height="200" style="max-width:60%;"></img>
 </a>
 <blockquote>Conversion from mace to gram.</blockquote>
 <br>
-<a target="_blank" href="">
+<a target="_blank" href="https://github.com/GintasS/VSOAI-project/blob/master/media/demo3.gif">
   <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/demo3.gif" height="400" style="max-width:60%;"></img>
 </a>
 <blockquote>Conversion via SMS: 1 kilogram to grams.</blockquote>
 <br>
-<a target="_blank" href="">
+<a target="_blank" href="https://github.com/GintasS/VSOAI-project/blob/master/media/demo4.gif">
   <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/demo4.gif" height="400" style="max-width:60%;"></img>
 </a>
 <blockquote>Conversion via SMS: 1 kilometre to metre.</blockquote>
 <br>
-<a target="_blank" href="">
+<a target="_blank" href="https://github.com/GintasS/VSOAI-project/blob/master/media/demo5.gif">
   <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/demo5.gif" height="400" style="max-width:60%;"></img>
 </a>
 <blockquote>Conversion via SMS: edge cases.</blockquote>
