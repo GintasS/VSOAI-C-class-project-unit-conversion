@@ -72,13 +72,21 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
   <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Image4.JPG" height="200" style="max-width:60%;"></img>
 </a>
 <blockquote>Conversion from mace to gram.</blockquote>
-
 <br>
 <a target="_blank" href="">
-  <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/demo3.mp4" height="200" style="max-width:60%;"></img>
+  <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/demo3.gif" height="400" style="max-width:60%;"></img>
 </a>
 <blockquote>Conversion via SMS: 1 kilogram to grams.</blockquote>
-
+<br>
+<a target="_blank" href="">
+  <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/demo4.gif" height="400" style="max-width:60%;"></img>
+</a>
+<blockquote>Conversion via SMS: 1 kilometre to metre.</blockquote>
+<br>
+<a target="_blank" href="">
+  <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/demo5.gif" height="400" style="max-width:60%;"></img>
+</a>
+<blockquote>Conversion via SMS: edge cases.</blockquote>
 
 ## <a name="Changelog"></a>Changelog
 
