@@ -38,6 +38,7 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
   <li>Currency support</li>
   <li>SMS support(trial)</li>
   <li>Works offline</li>
+  <li>Some Unit Tests!</li>
 </ul>
 
 ## <a name="AboutSms"></a>About SMS
