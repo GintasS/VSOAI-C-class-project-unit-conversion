@@ -23,7 +23,7 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
   <li>0. Install Visual Studio 2017 or 2019 with python packages.</li>
   <li>1. Download .zip file from this repository & extract it.</li>
   <li>2. Open the project in your extraction directory.</li>
-  <li>3. Run: <code>pip install -r requirements.txt</code><./li>
+  <li>3. Run: <code>pip install -r requirements.txt</code>.</li>
   <li>4. Run the project via VS Debugger.</li> 
 </ul>
 
