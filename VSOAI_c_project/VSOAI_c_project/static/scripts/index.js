@@ -1,12 +1,12 @@
+// Identifiers for manipulation.
 const UNIT_CATEGORY = "#categories-menu",
     UNIT_FROM = "#sub-units-menu-from",
     UNIT_TO = "#sub-units-menu-to",
     UNIT_VALUE = "#fromUnitValue",
     CONVERT_BTN = "#buttonConvert",
     RESULT = "#result";
-    
 
-
+// Disable drop-down lists after website has loaded.
 function InitOnStart()
 {
     $(UNIT_FROM).prop('disabled', true);
@@ -15,18 +15,28 @@ function InitOnStart()
     $(UNIT_VALUE).prop('disabled', true);
 }
 
+// Initialize event to display sub units for a specific category.
 function InitSubUnitDisplay()
 {
     $(UNIT_CATEGORY).change(function (e)
     {
+        // Clear previous sub-units.
         $(UNIT_FROM).empty();
-        $(UNIT_FROM).prop('disabled', false);
+        $(UNIT_TO).empty();
 
+        // Enable unit from drop-down & value field.
+        $(UNIT_FROM).prop('disabled', false);
+        $(UNIT_VALUE).prop('disabled', false);
+
+        // Get sub-units.
         $.ajax({
-            url: '/units-update?userCategory=' + document.getElementById('categories-menu').value,
-            success: function (data) {
+            url: '/units-update?userCategory=' + $(UNIT_CATEGORY).val(),
+            success: function (data)
+            {
+                // Remove the first one or "Unit FROM".
                 $(UNIT_FROM).slice(1).remove();
 
+                // Fill the units.
                 FillSubUnits(data["subUnits"])
             }
         });
@@ -34,13 +44,9 @@ function InitSubUnitDisplay()
     });
 }
 
+// Initialize event on "Convert" button click.
 function InitConversionMechanism()
 {
-    let testCategory = "time",
-        testFrom = "second",
-        testTo = "minute",
-        testValue = 50;
-
     $(CONVERT_BTN).click(function (e)
     {
         $.ajax({
@@ -55,51 +61,45 @@ function InitConversionMechanism()
         });
         e.preventDefault();
     });
-
-
-
-    /*
-     *     let testCategory = "time",
-        testFrom = "second",
-        testTo = "minute",
-        testValue = 50;
-     * 
-     *         $.ajax({
-            url: "/convert?userCategory=" + testCategory +
-                "&unitFrom=" + testFrom +
-                "&unitFromAmount=" + testValue +
-                "&unitTo=" + testTo,
-            success: function (data) {
-                $(RESULT).text(data["result"]);
-            }
-        });
-    */
-
 }
 
-
+// Initialize other events.
 function InitEvents()
 {
     // Sequence:
-    // Select a category -> select unit from -> select unit to -> select unit value -> convert button active
+    // Select a category -> 
+    // select unit from -> 
+    // select unit to -> 
+    // select unit value -> 
+    // convert button becomes active.
 
-    $(UNIT_FROM).change(function (e)
+    $(UNIT_VALUE).on("input", function (e)
     {
-        $(UNIT_VALUE).prop('disabled', false);
+        // Get input field value.
+        var number = parseFloat($(UNIT_VALUE).val())
+
+        // Validate user input.
+        if (isNaN(number) || number < 0)
+        {
+            $(UNIT_VALUE).val('');
+            $(UNIT_TO).prop('disabled', true);
+        }
+        else
+        {
+            $(UNIT_TO).prop('disabled', false);
+        }
         e.preventDefault();
     });
 
-    $(UNIT_VALUE).on("input", function (e) {
-        $(UNIT_TO).prop('disabled', false);
-        e.preventDefault();
-    });
-
-    $(UNIT_TO).change(function (e) {
+    // Activate "Convert" button when unit to was selected.
+    $(UNIT_TO).change(function (e)
+    {
         $(CONVERT_BTN).prop('disabled', false);
         e.preventDefault();
     });
 }
 
+// Helper function to fill sub units to a specific drop-down.
 function FillSubUnits(data)
 {
     let len = data.length
