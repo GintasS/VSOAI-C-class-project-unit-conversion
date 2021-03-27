@@ -15,13 +15,9 @@
 ## <a name="Intro"></a>Intro
 
 <p>This is a final project for C class graduation, where user can convert units with ease :)<br>
-There are unit categories(mass, time, length and etc) and sub units(kg, g, inch, second).<br>
-Unit data were acquired by scraping wikipedia with helper scripts & manual labor.<br>
-You can find the project here(has limitations, didn't include currencies and etc):<br>
-  http://gintautass.pythonanywhere.com/
-
-  
-</p>
+There are unit categories(mass, time, length and etc) and sub units(kg, g, inch, second).</p>
+<p>Unit data weere acquired by web-scraping wikipedia with the helper scripts & manual labor.</p>
+<p>You can find the project here(has limitations, didn't include currencies and etc) - <a href="http://gintautass.pythonanywhere.com/" target="_blank"></a>.</p>
 
 ## <a name="HowToRun"></a>How to run
 <p>These are the steps that you need to take in order to run this project:</p>
@@ -36,13 +32,13 @@ You can find the project here(has limitations, didn't include currencies and etc
 ## <a name="Features"></a>Features
 
 <ul>
-  <li>Flask</li>
-  <li>Currently there are 6 different unit types</li>
-  <li>Easy to use</li>
-  <li>All main units in one place</li>
-  <li>Currency support</li>
-  <li>SMS support(trial)</li>
-  <li>Works offline</li>
+  <li>Flask.</li>
+  <li>Currently, there are 6 different unit types.</li>
+  <li>Easy to use.</li>
+  <li>All main units in one place.</li>
+  <li>Currency support.</li>
+  <li>SMS support(trial).</li>
+  <li>Works offline.</li>
   <li>Some Unit Tests!</li>
 </ul>
 
