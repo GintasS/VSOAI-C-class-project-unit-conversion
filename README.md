@@ -111,3 +111,8 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
   <li>Fixed main layout of the MVP.</li>
   <li>Code improvements.</li>
 </ul>
+
+<h3>CHANGELOG 26/3/2020</h3>
+<ul>
+  <li>Fixed grammar mistakes.</li>
+</ul>
