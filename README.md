@@ -17,7 +17,7 @@
 <p>This is a final project for C class graduation, where user can convert units with ease :)<br>
 There are unit categories(mass, time, length and etc) and sub units(kg, g, inch, second).</p>
 <p>Unit data weere acquired by web-scraping wikipedia with the helper scripts & manual labor.</p>
-<p>You can find the project here - <a href="http://gintautass.pythonanywhere.com/" target="_blank"></a>.</p>
+<p>You can find the project here: <a href="http://gintautass.pythonanywhere.com/" target="_blank">link</a>. Currently doesn't work.</p>
 
 ## <a name="HowToRun"></a>How to run
 <p>These are the steps that you need to take in order to run this project:</p>
