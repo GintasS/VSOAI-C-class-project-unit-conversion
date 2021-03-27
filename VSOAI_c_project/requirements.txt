@@ -2,7 +2,7 @@ autopep8==1.4.4
 certifi==2019.6.16
 chardet==3.0.4
 Click==7.0
-Flask==0.12.4
+Flask==1.0
 forex-python==1.5
 freeze==1.0.10
 idna==2.8
