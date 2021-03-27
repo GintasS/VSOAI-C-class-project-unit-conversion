@@ -17,7 +17,7 @@
 <p>This is a final project for C class graduation, where user can convert units with ease :)<br>
 There are unit categories(mass, time, length and etc) and sub units(kg, g, inch, second).</p>
 <p>Unit data weere acquired by web-scraping wikipedia with the helper scripts & manual labor.</p>
-<p>You can find the project here(has limitations, didn't include currencies and etc) - <a href="http://gintautass.pythonanywhere.com/" target="_blank"></a>.</p>
+<p>You can find the project here - <a href="http://gintautass.pythonanywhere.com/" target="_blank"></a>.</p>
 
 ## <a name="HowToRun"></a>How to run
 <p>These are the steps that you need to take in order to run this project:</p>
@@ -44,7 +44,10 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
 
 ## <a name="AboutSms"></a>About SMS
 
-<p>I implemented a feature where one can message an SMS endpoint and receive unit conversion via SMS message!<br>I use Twilio provider's trial version and thus it has limitations, like you can't send SMS messages to not trusted numbers.<br>You can see it in action from the demos below.<br><br><b>Structure:</b><code>unit category/unit from/unit to/amount</code><br><b>Example:</b> mass/kilogram/gram/1</p>
+<p>I implemented a feature where one can send an SMS message and receive unit conversion via SMS message!</p>
+<p>I use Twilio provider's trial version and thus it has limitations, like you can't send SMS messages to not trusted numbers.<br>
+  You can see it in action from the demos below.<br><br><b>Structure:</b><code>unit category/unit from/unit to/amount</code><br><b>Example:</b> mass/kilogram/gram/1
+</p>
 
 ## <a name="Units"></a>Units
 <ul>
@@ -73,7 +76,6 @@ There are unit categories(mass, time, length and etc) and sub units(kg, g, inch,
   <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Image3.JPG" height="200" style="max-width:60%;"></img>
 </a>
 <blockquote>Conversion from EUR to RUB.</blockquote>
-<blockquote>Conversion from fortnight to hours.</blockquote>
 <br>
 <a target="_blank" href="https://github.com/GintasS/VSOAI-project/blob/master/media/Image4.JPG">
   <img src="https://github.com/GintasS/VSOAI-project/blob/master/media/Image4.JPG" height="200" style="max-width:60%;"></img>
